@@ -3,10 +3,10 @@
 CC=cc
 CFLAGS=-Wall -pedantic -ansi -O2 -g
 
+.PHONY: all
 all:
-	@$(CC) $(CFLAGS) asciitable.c -o asciitable
+	@$(CC) asciitable.c -o asciitable $(CFLAGS)
 
 .PHONY: clean
-	
 clean:
 	@rm asciitable
