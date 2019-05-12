@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 '''
 asciitable.c - prints ASCII table
 (c) Copyright 2019 Bartosz Mierzynski
